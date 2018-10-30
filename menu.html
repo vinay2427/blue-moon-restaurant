@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blue Moon Restaurant| Menu</title>
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <div class="kt-search-form d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="pe-7s-close-circle" aria-hidden="true"></i>
+                    </div>
+                    <form action="#" method="get">
+                        <input type="search" name="ktSearch" id="search" placeholder="Search Your Favourite Dish ...">
+                        <input type="submit" class="d-none" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header_area" id="header">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg align-items-center">
+                        <a class="navbar-brand" href="index.html">Blue Moon Restaurant</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ktNav" aria-controls="ktNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                        <div class="collapse navbar-collapse" id="ktNav">
+                            <ul class="navbar-nav ml-auto" id="ktMenu">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#about">About Us</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#menu">Menu <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#reservation">Reservation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="kt-search-btn">
+                                <a id="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-2.jpg)">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h2>Menu</h2>
+                        <a href="#menu" id="menubtn" class="btn kt-btn"><span></span> Special</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/a15.jpg)">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h2>Menu</h2>
+                        <a href="#menu" id="menubtn" class="btn kt-btn"><span></span> Special</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/a13.jpg)">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h2>Menu</h2>
+                        <a href="#menu" id="menubtn" class="btn kt-btn"><span></span> Special</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="clearfix">
+        <div class="container section-padding-100-0">
+
+            <div class="row ">
+                <div class="col-12 menu-heading">
+                    <div class=" text-center">
+                        <h2>Categories</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('mocktail'))">
+                    <div class=" text-center">
+                        <h6>MOCKTAIL</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="mocktail"></div>
+
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('pizza'))">
+                    <div class=" text-center">
+                        <h6>PIZZA</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="pizza"></div>
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('soup'))">
+                    <div class=" text-center">
+                        <h6>SOUP</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="soup"></div>
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('salad-raita'))">
+                    <div class=" text-center">
+                        <h6>SALAD & RAITA</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="salad-raita"></div>
+
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('side_dish'))">
+                    <div class=" text-center">
+                        <h6>SIDE DISH</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="side_dish"></div>
+
+       
+
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('rice-noodles'))">
+                    <div class=" text-center">
+                        <h6>RICE & NOODLES</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="rice-noodles"></div>
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('tandoor_on_fire'))">
+                    <div class=" text-center">
+                        <h6>TANDOOR ON FIRE</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="tandoor_on_fire"></div>
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('indian_curries'))">
+                    <div class=" text-center">
+                        <h6>INDIAN CURRIES</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('dal'))">
+                    <div class=" text-center">
+                        <h6>DAL</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="dal"></div>
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('tandoori_khazana'))">
+                    <div class=" text-center">
+                        <h6>TANDOORI KHAZANA</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="tandoori_khazana"></div>
+
+            <div class="row menu-heading-hover">
+                <div class="col-12 menu-heading " onclick="showHideAllInOneMenu(document.getElementById('rice'))">
+                    <div class=" text-center">
+                        <h6>RICE</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-hidden"  id="rice"></div>
+
+         
+        </div>
+
+    </section>
+    <section class="kt-dish-menu clearfix" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 menu-heading">
+                    <div class="section-heading text-center">
+                        <h2>Today's Special</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="kt-single-dish wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/FireShot/pizza/c2.jpg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Mushrooms Pizza</h6>
+                            <p class="dish-price">45 ₹</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="kt-single-dish wow fadeInUp" data-wow-delay="1s">
+                        <img src="img/FireShot/pasta/b2.jpg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">pasta</h6>
+                            <p class="dish-price">45 ₹</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="kt-single-dish wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="img/FireShot/burger/a2.jpg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Chicken Burger</h6>
+                            <p class="dish-price">45 ₹</p>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-12 col-sm-6 col-md-4">
+                    <div class="kt-single-dish wow fadeInUp" data-wow-delay="2.0s">
+                        <img src="img/FireShot/biryani/a3.jpg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">hyderabad chicken biryani </h6>
+                            <p class="dish-price">120 ₹</p>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-12 col-sm-6 col-md-4">
+                    <div class="kt-single-dish wow fadeInUp" data-wow-delay="2.5s">
+                        <img src="img/FireShot/sandwitch/a4.jpg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Chicken Sandwitch </h6>
+                            <p class="dish-price">70 ₹</p>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-12 col-sm-6 col-md-4">
+                    <div class="kt-single-dish wow fadeInUp" data-wow-delay="3.0s">
+                        <img src="img/FireShot/ice-cream/a5.jpg" alt="">
+                        <div class="dish-info">
+                            <h6 class="dish-name">Chocochips 500ml Family Pack</h6>
+                            <p class="dish-price">45 ₹</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="kt-footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-text">
+                        <a href="#" class="navbar-brand">Blue Moon Restaurant</a>
+                        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <a href="#" target="_blank">Vinay</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/others/plugins.js"></script>
+    <script src="js/active.js"></script>
+    <script src="js/main.js"></script>
+</body>
